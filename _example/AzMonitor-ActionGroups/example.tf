@@ -2,6 +2,7 @@ provider "azurerm" {
   features {}
 }
 
+
 module "resource_group" {
   source = "git::git@github.com:slovink/terraform-azure-resource-group.git?ref=1.0.0"
 
