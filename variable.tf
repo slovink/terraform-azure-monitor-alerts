@@ -5,7 +5,6 @@ variable "name" {
   default     = ""
   description = "Name  (e.g. `app` or `cluster`)."
 }
-
 variable "environment" {
   type        = string
   default     = ""

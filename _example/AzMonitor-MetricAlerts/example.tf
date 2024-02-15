@@ -11,10 +11,6 @@ module "resource_group" {
   location    = "Canada Central"
 }
 
-
-
-
-
 module "azmonitor-action-groups" {
   source      = "./../../"
   name        = "app"

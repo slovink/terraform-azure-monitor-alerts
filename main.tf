@@ -8,7 +8,6 @@ module "labels" {
 
 }
 
-
 resource "azurerm_monitor_action_group" "group" {
   for_each            = var.actionGroups
   name                = each.value.actionGroupName
