@@ -152,7 +152,7 @@ module "azmonitor-metric-alerts" {
 This example demonstrates how to create various AZURE resources using the provided modules. Adjust the input values to suit your specific requirements.
 
 ## Examples
-For detailed examples on how to use this module, please refer to the [Examples](https://github.com/slovink/terraform-azure-monitor-alerts/tree/master/_examples) directory within this repository.
+For detailed examples on how to use this module, please refer to the [Examples](https://github.com/slovink/terraform-azure-monitor-alerts/tree/master/_example) directory within this repository.
 
 ## License
 This Terraform module is provided under the **MIT** License. Please see the [LICENSE](https://github.com/slovink/terraform-azure-monitor-alerts/blob/master/LICENSE) file for more details.
@@ -166,7 +166,7 @@ Replace **MIT** and **slovink** with the appropriate license and your informatio
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >=1.6.6 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >=1.7.4 |
 | <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | >=3.87.0 |
 
 ## Providers

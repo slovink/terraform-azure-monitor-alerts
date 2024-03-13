@@ -15,6 +15,7 @@ module "resource_group" {
 }
 
 
+
 module "azmonitor-action-groups" {
   source = "../../."
   actionGroups = {
